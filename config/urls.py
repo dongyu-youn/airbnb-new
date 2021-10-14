@@ -7,7 +7,7 @@ from django.urls.conf import include
 
 urlpatterns = [
    path("admin/", admin.site.urls),
-   path("rooms/", include("core.urls")),
+   path("api/v1/rooms/", include("rooms.urls")),
 #    o 일단 모든 데이터를 출력시켜보자
 
 ]
